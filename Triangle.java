@@ -22,7 +22,7 @@ class Solution {
             int R = 2;
             
             for(int i= 2; i<A.length; i++) {
-                if(A[P]+A[Q]>A[R] && A[P]>0 && A[Q]>0 && A[R]>0) {
+                if((long) A[P]+ (long) A[Q]> (long)A[R]) {
                     hasTriangular = 1;
                     break;
                 }
